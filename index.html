@@ -7,7 +7,25 @@
     <title>Document</title>
 </head>
 <body>
+    <form name="myform">  
+        <script src="./nummap.js"></script>
+        <div>
+            <label>Input</label>
+            <input name="input"></input>
+            <input type="button" name="button" value="Get Result" onclick="getResult()" />  
 
-    <div> test </div>
+
+        </div>
+        </br>
+        <div>
+            <label>Unit Test</label>
+            <input type="button" name="button" value="Unit Test" onclick="unitTest()" />  
+        </div>
+        </br>
+        <div>
+            <label>Output</label>
+            <textarea name="output" rows="30" cols="100"> </textarea>
+        </div>
+    </form>
 </body>
 </html>
