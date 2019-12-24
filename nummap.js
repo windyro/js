@@ -68,7 +68,7 @@ function possibleArray(digit){
        let numArrays = array.find(item=>{
             return item.key == digitList[i] ;
        });
-       if(numArrays.map.length !=0){
+       if(numArrays && numArrays.map.length !=0){
             let exist = result.find(item=>{
                 return item.key == digitList[i] ;
             });
